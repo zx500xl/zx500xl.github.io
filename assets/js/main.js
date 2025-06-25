@@ -32,9 +32,9 @@ function startCountdownFromTenMinutes() {
 // Blue or white version
 
 const productMap = {
-  "product1": { priceId: 'price_1RWOueQa9ru2DPNT1dDXjj8n', amount: 699 },
-  "product2": { priceId: 'price_1RWOw7Qa9ru2DPNTWBir3iI4', amount: 1999 },
-  "product3": { priceId: 'price_1RWOw7Qa9ru2DPNTfJkFOi7G', amount: 2999 }
+  "product1": { priceId: 'price_1Rdl96GTfmxMUBqQtcSh0F53', amount: 699 },
+  "product2": { priceId: 'price_1Rdl96GTfmxMUBqQtcSh0F53', amount: 1999 },
+  "product3": { priceId: 'price_1Rdl96GTfmxMUBqQtcSh0F53', amount: 2999 }
 };
 
 let selectedProduct = productMap["product1"];
@@ -442,7 +442,7 @@ document.addEventListener('DOMContentLoaded', function() {
 let stripe, elements, cardNumberElement, cardExpiryElement, cardCvcElement;
 
 function mountStripe() {
-  stripe = Stripe('pk_test_51RSx5cQa9ru2DPNTllDHey2JxXXPgYhaDjq3AdGQ2gqbvDWQ2dsxDCdpXUq8MWc23H0qBGHee3WOa62vGwpIsBuK00uxrU2ztF');
+  stripe = Stripe('pk_test_h6TUVKFjjjctJIrdYeJrbA6d');
 
   const style = {
     invalid: {
