@@ -1,0 +1,744 @@
+@media screen and (max-width: 1165px) {
+    .slider-container {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .benefits-section .content {
+        grid-template-columns: repeat(3, 160px);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .technologies-container, .content-with-bar, .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .technologies-container .content {
+        flex-direction: column;
+    }
+    
+    .technologies-container .content .item {
+        width: 335px;
+    }
+    
+    .technologies .blue-btn, .hw-container .blue-btn {
+        width: 335px;  
+    } 
+}
+
+@media screen and (max-width: 375px) {
+    
+    .technologies-container .content .item {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .technologies-container {
+        padding: 0px;
+    }
+    
+    .technologies .blue-btn {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        margin-top: 25px;
+        gap: 20px;
+    }
+    
+    .secure-section {
+        margin-top: 32px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+    
+    .secure-section .item {
+        border-radius: 10px;
+        margin: 0px 24px;
+        
+        font-size: 16px;
+        height: 44px;
+        border-width: 1px;
+    }
+    
+    .secure-section .item img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .hero-section-2 {
+        padding-bottom: 35px;
+    }
+    
+    .hero-content .blue-btn { 
+        max-width: none;
+        width: calc(100% - 48px);
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .section-3 .secure-section {
+        gap: 8px;
+        margin-bottom: 86px;
+    }
+    
+    .section-3 .secure-section .item {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 44px;
+        border-radius: 10px;
+        font-size: 16px;
+        border: 1px dashed rgba(255, 255, 255, 0.1);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .benefits-section .item .image {
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    
+    /* .benefits-section .item .image img {
+    height: 100%;
+    }     */
+    
+    .benefits-section .item div:not(.image) {
+        font-size: 15px;
+    }
+    
+    .technologies-container .content .item {
+        font-size: 16px;
+    }
+    
+    .slider-container {
+        padding: 0 10px;
+    }
+    
+    .about-us .about-us-container .logos {
+        gap: 45px;
+    }
+    
+    .about-us .about-us-container .logos img {
+        width: 90px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    
+    .mobile-menu-popup .container{
+        max-width: 100%;
+    }
+
+    .mobile-menu-popup .header .content {
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-left: auto; 
+        margin-right: auto;
+        color: #FFF;
+        font-family: 'Raleway-Bold';
+        font-size: 18px; 
+    }
+
+    .mobile-menu-popup .header {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-bottom: 1px solid #BAB5C766;
+        height: 60px;
+    }
+
+    .mobile-menu-popup .container .close-btn {
+        top: 10px;
+        background-color: transparent;
+        left: auto;
+        right: 10px;
+    }
+
+    .mobile-menu-popup .container .links {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .mobile-menu-popup .container a {
+        text-align: center;
+    }
+
+    .section-2 .content {
+        width: calc(100% - 40px);
+    };
+
+    .completed-container {
+        width: 100%;
+    }
+
+    .completed-container .title {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .completed-container .info {
+        width: 100%;
+    }
+
+    .completed-container button {
+        width: 100%;
+    }
+
+    .benefits-section .content {
+        grid-template-columns: repeat(3, 107px);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .technologies {
+        margin-top: 61px;
+    }
+    
+    
+    .technologies-container .title {
+        padding-top: 45px;
+    }
+    
+    .technologies-container .title, .slider-container .title, .hw-container .title, .benefits-section .title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    
+    .swiper-slide .stars {
+        height: 24px;
+    }
+    
+    .swiper-slide .stars svg {
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .swiper-slide .text {
+        font-size: 14px;
+        max-width: 236px;
+        margin-bottom: 30px;
+    }
+    
+    .swiper-slide .name {
+        
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+    .about-us .about-us-container {
+        
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .blue-btn {
+        font-size: 16px;
+    }
+    
+    
+    .slider-container {
+        padding: 0;
+    }
+    
+    .technologies-container .content {
+        gap: 10px;
+    }
+    
+    .technologies-container .content .item svg {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .technologies-container .content .item {
+        gap: 14px;
+    }
+    
+    .technologies-container .content .item span {
+        font-family: 'Sailec-Medium';
+    }
+    
+    .hero-content .title {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .hero-content .subtitle {
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .hero-content button {
+        margin-top: 10px;
+        height: 50px;
+        font-size: 16px;
+    }
+    
+    .benefits-section .item {
+        height: 169px;
+        border-radius: 8px;
+    }
+    
+    .swiper-slide {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .swiper-slide .avatar-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+
+    .hero-section-2 {
+        padding-bottom: 24px;
+    }
+
+    .hero-content .rating {
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .hero-section::before {
+        width: 634px;
+        height: 634px;
+        top: -16%;
+    }
+    
+    .hero-content .hero-img {
+        max-width: calc(90% - 80px);
+        margin-top: -40px;
+    }
+}
+
+
+/* Modals */
+
+@media screen and (max-width: 600px) {
+    .section-2 .container {
+        height: fit-content;
+        border-radius: 32px 32px 0 0;
+        transform: none;
+    }
+
+    .section-2 .content {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .storage-container {
+        gap: 30px;
+    }
+
+    .storage-container .top {
+        gap: 26px;
+        height: 125px;
+    }
+
+    .storage-container .device-name {
+        font-size: 16px;
+    }
+    
+    .storage-container .storage-used {
+        font-size: 14px;
+        color: white;
+        opacity: 0.7;
+    }
+    
+    .storage-container .storage-used strong {
+        font-weight: 400;
+    }
+    
+    .storage-container .storage-used span {
+        font-weight: 200;
+    }
+    
+    .storage-container .storage-chart {
+        gap: 36px;
+    }
+    
+    .storage-container .chart-image {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .storage-container .legend {
+        gap: 14px;
+    }
+    
+    .storage-container .legend-item {
+        font-family: 'Raleway-Regular';
+        font-size: 12px;
+        gap: 5px;
+    }
+    
+    .storage-container .dot {
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+    }
+    
+    .storage-container .text-1 {
+        font-size: 24px;
+    }
+    
+    .storage-container .animatable .horizontal {
+        gap: 0px;
+        height: 130px;
+    }
+
+    .snowman {
+        transform: scale(0.444);
+    }
+
+    .storage-container .text-2 {
+        gap: 32px;
+        font-size: 14px;
+    }
+
+    
+    .section-3 .bckg {
+        padding-top: 27px;
+        padding-bottom: 38px;
+    }
+
+    .section-3 .container .users {
+        padding:  10px;
+        gap: 8px;
+        margin-bottom: 65px;
+    }
+    
+    .section-3 .container .users svg {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .section-3 .container .users div {
+        font-size: 14px;
+    }
+    
+    .section-3 .container .title {
+        font-size: 24px;
+        margin-bottom: 26px;
+    }
+    
+    .section-3 .container .subtitle {
+        font-size: 14px;
+        
+    }
+    
+    .section-3 .container.email {
+        width: calc(100% - 40px);
+    }
+
+    .section-3 .container.email input {
+        font-size: 14px;
+    }
+    
+    
+    .section-3 .container .tooltips {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 12px;
+        margin-right: 0px;
+    }
+    
+    .section-3 .container .tooltips .item {
+        padding: 10px;
+    }
+    
+    .section-3 .container .email-btn {
+        font-size: 16px;
+        margin-bottom: 116px;
+    }
+
+    .section-3 .container .info {gap: 7px;}
+    
+    .section-3 .container .info .item svg {
+        display: flex;
+        flex-shrink: 0;
+        width: 24px;
+        height: 24px;
+    }
+    
+    
+    .section-3 .container .title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    
+    .checkout .red-section {
+        border-radius: 16px;
+        padding: 18px 20px;
+        margin-bottom: calc(30px + 50px);
+    }
+    
+    .checkout .red-section span {
+        font-size: 16px;
+    }
+    
+    .checkout .red-section .timer .mins, .checkout .red-section .timer .secs {
+        width: 36px;
+        height: 40px;
+        padding: 25px;
+        font-size: 20px;
+        border-radius: 12px;
+    }
+    
+    .packages .item .leftside .text div:last-child {
+        font-size: 12px;
+    }
+    
+    .packages {
+        margin-bottom: 28px;
+        gap: 8px;
+    }
+    
+    .checkout .benefits {
+        padding: 20px 10px;
+        border-radius: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .section-3 .container .title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .checkout .benefits .content .item span {
+        font-size: 14px;
+    }
+    
+    .checkout .benefits .content {
+        row-gap: 17px;
+    }
+    
+    .checkout .payment-methods div {
+        width: 70px;
+    }
+    
+    .checkout .payment-methods div svg {
+        width: 50px;
+    }
+    
+    .checkout .payment-methods {
+        margin-bottom: 20px;
+    }
+    
+    .money-back-section {
+        padding: 20px;
+    }
+    
+    .section-3 .container .title {
+        /* font-size: 16px; */
+        margin-bottom: 20px;
+    }
+
+    .section-3 .container .subtitle {
+        font-size: 14px;
+    }
+    
+    .section-3 .money-back-section .text {
+        font-size: 13px;
+    }
+    
+    .disclaimer {
+        font-size: 12px;
+    } 
+}
+
+@media screen and (max-width: 530px) {
+
+    .section-3 .checkout {
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .section-3 .checkout .container:first-child  {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .section-3 .checkout .container:last-child  {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+        /* border: 1px solid green; */
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .completed-container .info {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .avatars {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .avatars .avatar {
+        width: 60px;
+    }
+    
+    .review-author {
+        margin-top: 0px;
+    }
+    
+    .about-us .about-us-container {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    
+    .about-us .about-us-container .logos {
+        gap: 45px;
+    }
+    
+    .about-us .about-us-container .logos img {
+        width: 60px;
+    }
+    
+    .hw-container .title {
+        color: #2E4053;
+        text-align: center;
+        font-family: 'Raleway-SemiBold';
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 49px;
+        margin-bottom: 35px;
+    }
+    
+    .hw-container .content-with-bar {
+        gap: 20px;
+    }
+    
+    .hw-container .content-with-bar .bars-container {
+        border-radius: 10px;
+        width: 20px;
+    }
+    
+    .hw-container .content-with-bar .bars-container .bar {
+        border-radius: 10px;
+        width: 20px;
+    }
+    
+    .bars-container .bar img {
+        width: 20px;
+    }
+    
+    .hw-container .content {
+        gap: 32px;
+    }
+    
+    .hw-container .content .container div {
+        font-size: 16px;
+    }
+    
+    .hw-container .content .container .text {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .hw-container .content .container .text:last-child {
+        margin-bottom: 0px;
+    }
+    
+    .hw-container .blue-btn {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .rating-box {
+        width: 100%;
+        gap: 5px;
+        border: 1px dashed #7AAFFF;
+        border-radius: 10px;
+        padding: 30px 20px;
+    }
+    
+    .rating-left {
+        padding-left: 10px;
+    }
+    
+    .rating-title {
+        font-size: 24px;
+    }
+    
+    .rating-score {
+        font-size: 50px;
+    }
+    
+    .rating-subtext {
+        font-size: 14px;
+        margin-top: 4px;
+        translate: 10px;
+    }
+    
+    .rating-bars {
+        gap: 6px;
+    }
+    
+    .rating-row {
+        gap: 4px;
+    }
+
+    .rating-row .rating-stars img {
+        width: 7px;
+        height: 7px;
+    }
+    
+    .rating-bars .bar {
+        height: 4px;
+        border-radius: 2px;
+        align-items: stretch;
+        width: 100%;
+        translate: 0px 1px;
+    }
+
+    .stars-bottom {
+        gap: 4px;
+    }
+
+    .stars-bottom img {
+        width: 21px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .section-3 .container .tooltips {
+        flex-wrap: wrap;
+    }
+}
